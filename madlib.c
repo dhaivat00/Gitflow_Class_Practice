@@ -68,7 +68,11 @@ main (const int argc, const char *argv[])
 
   // fill the template - and confirm success/failure
   bool success = fillTemplate(in, out);
+<<<<<<< HEAD
   printFile(out21);
+=======
+  printFile(out3);
+>>>>>>> dc7da5dd0270d38b7534622b57d092ec9b13ce91
   fclose(in);
   fclose(out);
 
